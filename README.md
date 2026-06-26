@@ -52,3 +52,5 @@ src/IntegrationNotes.md
 
 This repository is a clean portfolio-friendly version of the feature.  
 It does not include private server files, game assets, or proprietary client source.
+
+https://ibb.co/ZRnb0XgM
