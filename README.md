@@ -7,9 +7,7 @@ A reusable C++ module that integrates the Discord Game SDK into legacy MMORPG cl
 ## Demo
 
 <p align="center">
-    <a href="https://ibb.co/ZRnb0XgM">
-        <img src="https://i.ibb.co/XXXXXXXX/discord-rich-presence.gif" alt="Discord Rich Presence Demo" width="900">
-    </a>
+  <img src="./Recording-2026-06-26-at-03-14-44.gif" alt="Discord Rich Presence Demo" width="900">
 </p>
 
 ---
