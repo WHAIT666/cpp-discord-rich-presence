@@ -1,56 +1,40 @@
-# Metin2 Discord Rich Presence
+# Discord Rich Presence for Legacy MMORPG Clients
 
-Discord Rich Presence integration for a legacy MMORPG client.
+A reusable C++ module that integrates the Discord Game SDK into legacy MMORPG clients, providing dynamic Rich Presence updates based on in-game state.
+
+---
+
+## Demo
+
+<p align="center">
+    <a href="https://ibb.co/ZRnb0XgM">
+        <img src="https://i.ibb.co/XXXXXXXX/discord-rich-presence.gif" alt="Discord Rich Presence Demo" width="900">
+    </a>
+</p>
+
+---
 
 ## Features
 
-- Shows server name
-- Shows character name
-- Shows current map
-- Supports race/class image keys
-- Supports empire small image keys
-- Uses Discord Game SDK activity updates
+- Discord Game SDK integration
+- Dynamic Rich Presence updates
+- Displays server name
+- Displays character name
+- Displays current map
+- Race/Class image support
+- Empire icon support
+- Clean, reusable C++ implementation
+- Easy integration into existing game clients
 
-## Example Presence
+---
+
+## Example Rich Presence
 
 ```text
 EzyMT2
+
 Character: Mars
 Map: Yongan
-Large image: discordbackground
-Small image: empire_shinsoo
-```
 
-## Files
-
-```text
-src/DiscordPresenceManager.h
-src/DiscordPresenceManager.cpp
-src/IntegrationNotes.md
-```
-
-## Setup
-
-1. Create an application in the Discord Developer Portal.
-2. Add your Rich Presence art assets:
-   - `discordbackground`
-   - `warrior_m`, `warrior_w`
-   - `ninja_m`, `ninja_w`
-   - `sura_m`, `sura_w`
-   - `shaman_m`, `shaman_w`
-   - `empire_shinsoo`
-   - `empire_chunjo`
-   - `empire_jinno`
-3. Replace `YOUR_DISCORD_APPLICATION_ID` in `DiscordPresenceManager.cpp`.
-4. Link the Discord Game SDK library in your client project.
-5. Call `Initialize()` on client start.
-6. Call `UpdatePresence()` after login, map change, or character change.
-7. Call `RunCallbacks()` every frame or periodically.
-8. Call `Shutdown()` when closing the client.
-
-## Notes
-
-This repository is a clean portfolio-friendly version of the feature.  
-It does not include private server files, game assets, or proprietary client source.
-
-https://ibb.co/ZRnb0XgM
+Large Image: discordbackground
+Small Image: empire_shinsoo
